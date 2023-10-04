@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "keras-examples"
+version = "0.1.0"
+description = ""
+authors = ["miguelm7 <miguelmore100@gmail.com>"]
+readme = "README.md"
+packages = [{include = "keras_examples"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+tensorflow = "^2.14.0"
+pandas = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
